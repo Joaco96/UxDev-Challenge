@@ -195,7 +195,7 @@ const Div = styled.div`
 const Number = styled.p`
   color: var(
     ${(props) =>
-      props.$darkMode ? "--textprimary-darkmode" : "--textprimary-lightmode"}
+      props.$darkMode ? "--textprimary-darkmode" : "--textsecondary-lightmode"}
   );
   font-weight: 700;
   font-size: 34px;

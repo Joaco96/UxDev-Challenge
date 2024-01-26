@@ -14,7 +14,7 @@ const Container = styled.section`
   width: 100%;
   border-radius: 5px;
   &:hover {
-    cursor:pointer;
+    cursor: pointer;
     background-color: var(
       ${(props) =>
         props.$darkMode
@@ -87,8 +87,8 @@ const OverviewCard = ({
   icon,
   number,
   variation,
-  positive,
-  darkMode,
+  positive = true,
+  darkMode = true,
 }) => {
   return (
     <Container $darkMode={darkMode}>

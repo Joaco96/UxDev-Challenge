@@ -33,7 +33,7 @@ const MainCardsContainer = ({ darkMode }) => {
             />
           </svg>
         }
-        borderColor={"--colorfacebook"}
+        borderColor={"var(--colorfacebook)"}
         userName={"@nathanf"}
         quantity={"1987"}
         variationChart={"81"}
@@ -52,7 +52,7 @@ const MainCardsContainer = ({ darkMode }) => {
             />
           </svg>
         }
-        borderColor={"--colortwitter"}
+        borderColor={"var(--colortwitter)"}
         userName={"@nathanf"}
         quantity={"1044"}
         dataName={"followers"}
@@ -78,7 +78,7 @@ const MainCardsContainer = ({ darkMode }) => {
             />
           </svg>
         }
-        borderColor={"--colorinstagram"}
+        borderColor={"var(--colorinstagram)"}
         userName={"@realnathanf"}
         quantity={"11k"}
         dataName={"followers"}
@@ -97,7 +97,7 @@ const MainCardsContainer = ({ darkMode }) => {
             />
           </svg>
         }
-        borderColor={"--coloryouTube"}
+        borderColor={"var(--coloryouTube)"}
         userName={"Nathan F."}
         quantity={"8239"}
         dataName={"subscribers"}

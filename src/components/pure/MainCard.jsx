@@ -7,7 +7,7 @@ const Border = styled.div`
   width: 100%;
   height: 100%;
   border-radius: 5px;
-  background: var(${(props) => props.$borderColor});
+  background: ${(props) => props.$borderColor};
 `;
 
 const Container = styled.section`
@@ -102,14 +102,13 @@ const BottomText = styled.p`
 
 const MainCard = ({
   icon,
-  borderColor,
+  borderColor = "#000000",
   quantity,
   userName,
   dataName,
   variation,
-  positive,
-  darkMode,
-  toggleModal,
+  positive = true,
+  darkMode = true,
   social,
   variationChart,
 }) => {
