@@ -123,7 +123,7 @@ We will list the changes made in descending order:
 
 As a challenge for the responsive design, we noticed that as we approached the 1024p resolution, the MainCard components began to pile up, making it difficult to read their content.
 
-*Changes:*
+- Changes:
 
 1024p: General margins and card gaps are modified, as well as changed from 4 to 2 columns for MainCards.
 
@@ -135,7 +135,7 @@ As a challenge for the responsive design, we noticed that as we approached the 1
 
 On the other hand, the ChartModal data in the 768p resolution was unreadable and exceeded the limits of the modal itself.
 
-*Changes:*
+- Changes:
 
 1300p: The width of the modal is enlarged.
 
